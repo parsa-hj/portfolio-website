@@ -10,10 +10,7 @@ const Projects = ({openModal,setOpenModal}) => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projects</Title>
-        <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
-        </Desc>
+        <Title>Personal Projects</Title>
         <CardContainer>
           {toggle === 'all' && projects
             .map((project) => (
