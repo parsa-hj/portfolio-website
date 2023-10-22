@@ -120,7 +120,7 @@ export const experiences = [
     role: "Vice-President",
     company: "Entrepreneurial Student Society",
     date: "Aug 2023 - Present",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    desc: "",
     skills: [
       "HTML",
       "CSS",
@@ -137,7 +137,7 @@ export const experiences = [
     role: "Software Engineering Intern",
     company: "The Cigna Group",
     date: "May 2023 - Aug 2023",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    desc: "-Conducted comprehensive testing for Cigna's pharmacy benefits management tool using Cucumber, Jenkins, and Java, ensuring seamless functionality and user experience.  -Developed and integrated new features into the Department of Labor-specific PBMS software using React.js, HTML, and CSS.  -Ensured accessibility and compliance standards by implementing React.js, CSS, and HTML enhancements, achieving 508 compliance for Cigna's pharmacy benefits management tool.  -Contributed to the successful deployment of new releases by performing manual Zephyr testing and streamlining GitHub branches for optimized software performance and reliability.",
     skills: [
       "HTML",
       "CSS",
@@ -154,7 +154,7 @@ export const experiences = [
     role: "Information Technology Specialist",
     company: "Arcades Market",
     date: "May 2022 - Aug 2022",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    desc: "-Oversaw the development and continuous maintenance of a Raspberry Pi-based Retropie OS for arcade machines, resulting in elevated performance and seamless gaming experiences for users.  -Provided expert IT support, ensuring seamless operations.  -Managed hardware assets and IT inventory to ensure the availability, organization, and functionality of equipment essential for operations, contributing to streamlined processes and optimal resource allocation.",
     skills: [
       "Raspberry Pi",
       "Linux",
@@ -169,7 +169,7 @@ export const experiences = [
     role: "Information Technology Assistant",
     company: "Arcades Market",
     date: "May 2023 - Present",
-    desc: "Contributing to different open-source projects and learn from industry experts",
+    desc: "-Provided technical support for software and hardware issues, effectively addressing challenges to maintain the optimal functioning of the arcade machines.  -Managed hardware assets and IT inventory, ensuring efficient organization and availability of equipment for seamless operations.",
     skills: [
       "Teamwork",
       "Problem Solving",
