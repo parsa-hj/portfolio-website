@@ -1,3 +1,5 @@
+import essImage from '../images/ess_logo.png';
+
 export const Bio = {
   name: "Parsa Hajiha",
   roles: [
@@ -116,7 +118,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D560BAQEsgwKYvC8m_g/company-logo_100_100/0/1697548427426?e=1706140800&v=beta&t=ryIDxKKJd56EGAJ8VsTFPxQy75Gm0CXQeya9Ktc1Dm4",
+    img: essImage,
     role: "Vice-President",
     company: "Entrepreneurial Student Society",
     date: "Aug 2023 - Present",
