@@ -116,6 +116,7 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 `
 
 
@@ -137,6 +138,7 @@ const Contact = () => {
     )
       .then((result) => {
           console.log(result.text);
+          setOpen(true);
       }, (error) => {
           console.log(error.text);
       });
@@ -152,7 +154,7 @@ const Contact = () => {
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactButton type="submit" value="Send" name="send_button"/>
         </ContactForm>
         <Snackbar
           open={open}
