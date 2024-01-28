@@ -67,7 +67,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
@@ -87,7 +87,7 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format",
       },
     ],
   },
@@ -150,7 +150,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4D0BAQH6ivm-gMjPNg/company-logo_200_200/0/1624410239171?e=1706140800&v=beta&t=VBCo_EME64W06VB25q3OQ0duX0bsyRrJO64vNBmbwpc",
+    img: "https://arcadesmarket.com/cdn/shop/t/7/assets/slide_1.jpg?v=10015597102006337031433047617",
     role: "Information Technology Specialist",
     company: "Arcades Market",
     date: "May 2022 - Aug 2022",
@@ -165,7 +165,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/C4D0BAQH6ivm-gMjPNg/company-logo_200_200/0/1624410239171?e=1706140800&v=beta&t=VBCo_EME64W06VB25q3OQ0duX0bsyRrJO64vNBmbwpc",
+    img: "https://arcadesmarket.com/cdn/shop/t/7/assets/slide_1.jpg?v=10015597102006337031433047617",
     role: "Information Technology Assistant",
     company: "Arcades Market",
     date: "May 2023 - Present",
