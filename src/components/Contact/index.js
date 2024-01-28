@@ -126,8 +126,9 @@ const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs.sendForm(
       process.env.EMAILJS_SERVICE_ID,
       process.env.EMAILJS_TEMPLATE_ID,
@@ -135,21 +136,18 @@ const Contact = () => {
       process.env.EMAILJS_PUBLIC_KEY
     )
       .then((result) => {
-        setOpen(true);
-        form.current.reset();
+          console.log(result.text);
       }, (error) => {
-        console.log(error.text);
+          console.log(error.text);
       });
-  }
-
-
+  };
 
   return (
     <Container>
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <ContactForm ref={form} onSubmit={sendEmail}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
