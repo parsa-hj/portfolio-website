@@ -10,7 +10,7 @@ export const Bio = {
     "Passionate and driven Computer Science student with a strong foundation in software engineering and a dedication to innovation. Currently pursuing a B.S. in Computer Science at Missouri University of Science & Technology, I have consistently demonstrated excellence in technical skills and a commitment to collaborative problem-solving. My journey in the world of technology has been marked by hands-on experiences, impactful projects, and a continuous quest for learning.",
   github: "https://github.com/parsa-hj",
   resume:
-    "https://drive.google.com/file/d/1LVg61gmR1M78rM1In4qNs0rtZapDwyxM/view?usp=sharing",
+    "https://drive.google.com/file/d/1BJXZIRaMAfBHskuI-B0QBXD3hMYPOgA3/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/parsa-hajiha/",
 };
 
