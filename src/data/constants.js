@@ -72,6 +72,11 @@ export const skills = [
           "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
+        name: "AWS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png",
+      },
+      {
         name: "GitHub",
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
@@ -111,6 +116,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
+      {
+        name: "SQL",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+      },
     ],
   },
 ];
@@ -119,7 +129,7 @@ export const experiences = [
   {
     id: 0,
     img: essImage,
-    role: "Vice-President",
+    role: "President & Co-Founder",
     company: "Entrepreneurial Student Society",
     date: "Aug 2023 - Present",
     desc: "",
@@ -131,6 +141,22 @@ export const experiences = [
       "Teamwork",
       "Leadership",
       "Problem Solving",
+    ],
+  },
+  {
+    id: 0,
+    img: "https://pbs.twimg.com/profile_images/1625005580632068098/2TOOuW-V_400x400.png",
+    role: "Infrastructure Engineering Intern",
+    company: "The Cigna Group",
+    date: "May 2024 - Aug 2024",
+    desc: "",
+    skills: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React.js",
+      "AWS",
+      "Terraform",
     ],
   },
   {
@@ -187,7 +213,7 @@ export const education = [
     school: "Missouri University of Science and Technology",
     date: "Oct 2021 - Sep 2025",
     grade: "Sophomore",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science at Missouri S&T. I have taken courses in Data Structures, Discrete Math, Computational Solving, Intro to C++ Programming, and Digital Logic.",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science at Missouri S&T. I have taken courses in Algorithms, Data Structures, Discrete Math, Computer Networks, Computational Solving, Intro to C++ Programming, Operating Systems, and Digital Logic.",
     degree: "Bachelor's degree, Computer Science",
   },
 ];
