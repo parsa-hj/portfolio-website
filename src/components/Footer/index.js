@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import { Bio } from '../../data/constants';
+import styled from "styled-components";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import { Bio } from "../../data/constants";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -10,7 +10,6 @@ const FooterContainer = styled.div`
   justify-content: center;
   //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
 `;
-
 
 const FooterWrapper = styled.footer`
   width: 100%;
@@ -47,7 +46,7 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
@@ -95,13 +94,14 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><GitHubIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="display">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="display">
+            <GitHubIcon />
+          </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>
-          &copy; 2023 Parsa Hajiha. All rights reserved.
-        </Copyright>
-
+        <Copyright>&copy; 2025 Parsa Hajiha. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

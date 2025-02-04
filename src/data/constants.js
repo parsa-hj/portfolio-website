@@ -1,11 +1,8 @@
-import essImage from '../images/ess_logo.png';
+import essImage from "../images/ess_logo.png";
 
 export const Bio = {
   name: "Parsa Hajiha",
-  roles: [
-    "CS Student",
-    "Programmer",
-  ],
+  roles: ["CS Student", "Programmer"],
   description:
     "Passionate and driven Computer Science student with a strong foundation in software engineering and a dedication to innovation. Currently pursuing a B.S. in Computer Science at Missouri University of Science & Technology, I have consistently demonstrated excellence in technical skills and a commitment to collaborative problem-solving. My journey in the world of technology has been marked by hands-on experiences, impactful projects, and a continuous quest for learning.",
   github: "https://github.com/parsa-hj",
@@ -68,8 +65,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+        image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "AWS",
@@ -149,13 +145,16 @@ export const experiences = [
     role: "Infrastructure Engineering Intern",
     company: "The Cigna Group",
     date: "May 2024 - Aug 2024",
-    desc: "",
+    desc: "-Facilitated the migration of IBM DB2 databases to AWS RDS, improving database performance and scalability while reducing operational costs in an agile development environment. -Streamlined the secrets rotation in AWS Secrets Manager using Terraform, allowing for scheduled credential updates every 3 days and improving security audits by providing consistent compliance documentation. -Implemented and deployed golden modules and RDS instances on AWS using Terraform, standardizing infrastructure deployment and increasing efficiency across multiple projects.",
     skills: [
       "HTML",
       "CSS",
       "Javascript",
       "React.js",
-      "AWS",
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3",
+      "AWS DynamoDB",
       "Terraform",
     ],
   },
@@ -177,48 +176,41 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
-    img: "https://arcadesmarket.com/cdn/shop/t/7/assets/slide_1.jpg?v=10015597102006337031433047617",
-    role: "Information Technology Specialist",
-    company: "Arcades Market",
-    date: "May 2022 - Aug 2022",
-    desc: "-Oversaw the development and continuous maintenance of a Raspberry Pi-based Retropie OS for arcade machines, resulting in elevated performance and seamless gaming experiences for users.  -Provided expert IT support, ensuring seamless operations.  -Managed hardware assets and IT inventory to ensure the availability, organization, and functionality of equipment essential for operations, contributing to streamlined processes and optimal resource allocation.",
-    skills: [
-      "Raspberry Pi",
-      "Linux",
-      "Teamwork",
-      "Problem Solving",
-      "IT Operations",
-    ],
-  },
-  {
     id: 2,
     img: "https://arcadesmarket.com/cdn/shop/t/7/assets/slide_1.jpg?v=10015597102006337031433047617",
     role: "Information Technology Assistant",
     company: "Arcades Market",
-    date: "May 2023 - Present",
+    date: "May 2023 - Aug 2024",
     desc: "-Provided technical support for software and hardware issues, effectively addressing challenges to maintain the optimal functioning of the arcade machines.  -Managed hardware assets and IT inventory, ensuring efficient organization and availability of equipment for seamless operations.",
-    skills: [
-      "Teamwork",
-      "Problem Solving",
-      "IT Operations",
-    ],
+    skills: ["Teamwork", "Problem Solving", "IT Operations"],
   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://yt3.googleusercontent.com/eTvQN-GFpKmu5R965nb8eECxKu1zt5piRZpqudhz-3--cqUPsggUOs35s_2pRlZox0vSpOF69g=s900-c-k-c0x00ffffff-no-rj",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Missouri_S%26T_logo.svg/1200px-Missouri_S%26T_logo.svg.png",
     school: "Missouri University of Science and Technology",
-    date: "Oct 2021 - Sep 2025",
-    grade: "Sophomore",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science at Missouri S&T. I have taken courses in Algorithms, Data Structures, Discrete Math, Computer Networks, Computational Solving, Intro to C++ Programming, Operating Systems, and Digital Logic.",
+    date: "Aug 2022 - May 2026",
+    grade: "Junior",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science at Missouri S&T. I have taken courses in Algorithms, Data Structures, Discrete Math, Computer Networks, Computational Solving, Intro to C++ Programming, Operating Systems, Digital Logic, and Database Systems.",
     degree: "Bachelor's degree, Computer Science",
   },
 ];
 
 export const projects = [
+  {
+    id: 1,
+    title: "Rate My University",
+    description:
+      "This project is a University Rating App built with React and a Node.js/Express backend, allowing users to browse and rate universities on various categories like student life, cost, dorms, classes, and more.",
+    image:
+      "https://private-user-images.githubusercontent.com/62154897/388716948-c3be5743-8156-4a20-9dca-f73fbd034313.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg2NDI4MDIsIm5iZiI6MTczODY0MjUwMiwicGF0aCI6Ii82MjE1NDg5Ny8zODg3MTY5NDgtYzNiZTU3NDMtODE1Ni00YTIwLTlkY2EtZjczZmJkMDM0MzEzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjA0VDA0MTUwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFhOTllM2IzOTZmMGZmYWFkMzJlMTk0MDc1OGYxZDgxMmU0MzI0ODI3Njk1ZGY5MTA2Y2IyMDAzYWE0YjE2OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.KxIsuRojRd1oa4zF7PdpZt_aoh77bMnLiWQnDaVizGM",
+    tags: ["HTML", "CSS", "React.js", "MySQL", "Tailwind", "Express.js"],
+    category: "web app",
+    github: "https://github.com/parsa-hj/rate-my-university",
+    webapp: "https://github.com/parsa-hj/rate-my-university",
+  },
   {
     id: 9,
     title: "Satelite Locator",
@@ -226,35 +218,22 @@ export const projects = [
       "The Live International Satellite Station Locator is a dynamic web application that allows users to track and explore the International Space Station (ISS) in real-time. By leveraging the ISS API and Google Maps API, this project provides an interactive and informative platform to visualize the current position of the satellite as it orbits the Earth.",
     image:
       "https://github.com/parsa-hj/satellite-locator/blob/main/server/public/img/iss%20locator.png?raw=true",
-    tags: [
-      "Node.js",
-      "Express.js",
-      "EJS",
-      "CSS",
-      "Google API",
-      "ISS API",
-    ],
+    tags: ["Node.js", "Express.js", "EJS", "CSS", "Google API", "ISS API"],
     category: "web app",
     github: "https://github.com/parsa-hj/satellite-locator",
     webapp: "https://github.com/parsa-hj/satellite-locator",
   },
   {
     id: 1,
-    title: "ACM Entrepreneurship's website",
+    title: "Entrepreneurial Student Society's website",
     description:
       "This website serves as a platform for students to gain information about the organization, its events, projects, and resources.",
     image:
-      "https://user-images.githubusercontent.com/62154897/277197577-bf7627b5-367d-4944-bb30-1e4b4f9806f6.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "JavaScript",
-      "React.js",
-    ],
+      "https://private-user-images.githubusercontent.com/62154897/409387506-d154803d-b298-41f6-8cf9-304b8ab0b1bc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg2NDMxMjUsIm5iZiI6MTczODY0MjgyNSwicGF0aCI6Ii82MjE1NDg5Ny80MDkzODc1MDYtZDE1NDgwM2QtYjI5OC00MWY2LThjZjktMzA0YjhhYjBiMWJjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjA0VDA0MjAyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ4NmYxZmVhOWNmNWRmYjZhODJjOTI1YjA1ZjgzYTJhNjhjNTI0MWI5MTQwZDkwMDRmODhmMjQxZGI2MzM1NTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.rpaA0w4YmeigerXAVnlRkbb_SG9PFJacTMp_RsODvYU",
+    tags: ["HTML", "CSS", "JavaScript", "WordPress"],
     category: "web app",
-    github: "https://github.com/ACM-Entrepreneurship/acm-e-website#acm-entrpenuership-website-github-repository",
-    webapp: "https://acm-entrepreneurship.github.io/acm-e-website/",
+    github: "https://ess.mst.edu",
+    webapp: "https://ess.mst.edu",
   },
   {
     id: 1,
@@ -263,14 +242,7 @@ export const projects = [
       "Harvest Book is a website that provides a platform for farmers to donate their excess food to charities, reducing food waste and decay while also providing tax benefits for the farmers.",
     image:
       "https://github.com/ACM-Entrepreneurship/harvest-book/raw/main/harvest-book/public/images/harvest_book_main_page.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "JavaScript",
-      "Next.js",
-      "Google API",
-    ],
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Next.js", "Google API"],
     category: "web app",
     github: "https://github.com/ACM-Entrepreneurship/harvest-book",
     webapp: "https://github.com/ACM-Entrepreneurship/harvest-book",
