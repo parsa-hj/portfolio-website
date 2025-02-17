@@ -141,7 +141,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: "https://pbs.twimg.com/profile_images/1625005580632068098/2TOOuW-V_400x400.png",
+    img: "https://newsroom.thecignagroup.com/image/1050x591-the-cigna-group-logo.png",
     role: "Infrastructure Engineering Intern",
     company: "The Cigna Group",
     date: "May 2024 - Aug 2024",
@@ -160,7 +160,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: "https://pbs.twimg.com/profile_images/1625005580632068098/2TOOuW-V_400x400.png",
+    img: "https://newsroom.thecignagroup.com/image/1050x591-the-cigna-group-logo.png",
     role: "Software Engineering Intern",
     company: "The Cigna Group",
     date: "May 2023 - Aug 2023",
@@ -205,7 +205,7 @@ export const projects = [
     description:
       "This project is a University Rating App built with React and a Node.js/Express backend, allowing users to browse and rate universities on various categories like student life, cost, dorms, classes, and more.",
     image:
-      "https://private-user-images.githubusercontent.com/62154897/388716948-c3be5743-8156-4a20-9dca-f73fbd034313.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg2NDI4MDIsIm5iZiI6MTczODY0MjUwMiwicGF0aCI6Ii82MjE1NDg5Ny8zODg3MTY5NDgtYzNiZTU3NDMtODE1Ni00YTIwLTlkY2EtZjczZmJkMDM0MzEzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjA0VDA0MTUwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFhOTllM2IzOTZmMGZmYWFkMzJlMTk0MDc1OGYxZDgxMmU0MzI0ODI3Njk1ZGY5MTA2Y2IyMDAzYWE0YjE2OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.KxIsuRojRd1oa4zF7PdpZt_aoh77bMnLiWQnDaVizGM",
+      "https://private-user-images.githubusercontent.com/62154897/388716948-c3be5743-8156-4a20-9dca-f73fbd034313.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk3NjQzOTQsIm5iZiI6MTczOTc2NDA5NCwicGF0aCI6Ii82MjE1NDg5Ny8zODg3MTY5NDgtYzNiZTU3NDMtODE1Ni00YTIwLTlkY2EtZjczZmJkMDM0MzEzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDAzNDgxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNiZjEwY2U1NDZiZGIwYTEyMzk0ZWY4M2FhNmVkOWEyYjkzZDk2MGFhNGViNzYxMDZkNGI3ZjE3MWVkYWQwZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.34NVlpqNQh1fnQo5xGe_VIAUG1k-qvYeT4byagGWATM",
     tags: ["HTML", "CSS", "React.js", "MySQL", "Tailwind", "Express.js"],
     category: "web app",
     github: "https://github.com/parsa-hj/rate-my-university",
@@ -229,7 +229,7 @@ export const projects = [
     description:
       "This website serves as a platform for students to gain information about the organization, its events, projects, and resources.",
     image:
-      "https://private-user-images.githubusercontent.com/62154897/409387506-d154803d-b298-41f6-8cf9-304b8ab0b1bc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg2NDMxMjUsIm5iZiI6MTczODY0MjgyNSwicGF0aCI6Ii82MjE1NDg5Ny80MDkzODc1MDYtZDE1NDgwM2QtYjI5OC00MWY2LThjZjktMzA0YjhhYjBiMWJjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjA0VDA0MjAyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ4NmYxZmVhOWNmNWRmYjZhODJjOTI1YjA1ZjgzYTJhNjhjNTI0MWI5MTQwZDkwMDRmODhmMjQxZGI2MzM1NTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.rpaA0w4YmeigerXAVnlRkbb_SG9PFJacTMp_RsODvYU",
+      "https://private-user-images.githubusercontent.com/62154897/409387506-d154803d-b298-41f6-8cf9-304b8ab0b1bc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk3NjQ1MDQsIm5iZiI6MTczOTc2NDIwNCwicGF0aCI6Ii82MjE1NDg5Ny80MDkzODc1MDYtZDE1NDgwM2QtYjI5OC00MWY2LThjZjktMzA0YjhhYjBiMWJjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDAzNTAwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQzNjdjMTZkNDIzYjRiZmM2MWZhMGRlNWQ3ZTJmY2Q4MWY2YWUzNzgxNmRlMjBkYmE1MGQ5Njk1MWY4YmRlNjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xdLPUU5APLbMB6iJmsbnDJU_pq_1pv7zWyDUscMsD9g",
     tags: ["HTML", "CSS", "JavaScript", "WordPress"],
     category: "web app",
     github: "https://ess.mst.edu",
