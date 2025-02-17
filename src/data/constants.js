@@ -1,4 +1,5 @@
 import essImage from "../images/ess_logo.png";
+import rmuImage from "../images/rmu-pic-cover.png";
 
 export const Bio = {
   name: "Parsa Hajiha",
@@ -204,8 +205,7 @@ export const projects = [
     title: "Rate My University",
     description:
       "This project is a University Rating App built with React and a Node.js/Express backend, allowing users to browse and rate universities on various categories like student life, cost, dorms, classes, and more.",
-    image:
-      "https://private-user-images.githubusercontent.com/62154897/388716948-c3be5743-8156-4a20-9dca-f73fbd034313.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk3NjQzOTQsIm5iZiI6MTczOTc2NDA5NCwicGF0aCI6Ii82MjE1NDg5Ny8zODg3MTY5NDgtYzNiZTU3NDMtODE1Ni00YTIwLTlkY2EtZjczZmJkMDM0MzEzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDAzNDgxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNiZjEwY2U1NDZiZGIwYTEyMzk0ZWY4M2FhNmVkOWEyYjkzZDk2MGFhNGViNzYxMDZkNGI3ZjE3MWVkYWQwZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.34NVlpqNQh1fnQo5xGe_VIAUG1k-qvYeT4byagGWATM",
+    image: rmuImage,
     tags: ["HTML", "CSS", "React.js", "MySQL", "Tailwind", "Express.js"],
     category: "web app",
     github: "https://github.com/parsa-hj/rate-my-university",
