@@ -9,8 +9,7 @@ export const Bio = {
   description:
     "Passionate and driven Computer Science student with a strong foundation in software engineering and a dedication to innovation. Currently pursuing a B.S. in Computer Science at Missouri University of Science & Technology, I have consistently demonstrated excellence in technical skills and a commitment to collaborative problem-solving. My journey in the world of technology has been marked by hands-on experiences, impactful projects, and a continuous quest for learning.",
   github: "https://github.com/parsa-hj",
-  resume:
-    "",
+  resume: "",
   linkedin: "https://www.linkedin.com/in/parsa-hajiha/",
 };
 
@@ -106,8 +105,7 @@ export const skills = [
       },
       {
         name: "Terraform",
-        image:
-          "https://img.icons8.com/fluent/512/terraform.png",
+        image: "https://img.icons8.com/fluent/512/terraform.png",
       },
       {
         name: "MongoDB",
@@ -159,7 +157,8 @@ export const skills = [
       },
       {
         name: "Cucumber",
-        image: "https://images.seeklogo.com/logo-png/27/1/cucumber-logo-png_seeklogo-273020.png",
+        image:
+          "https://images.seeklogo.com/logo-png/27/1/cucumber-logo-png_seeklogo-273020.png",
       },
     ],
   },
@@ -192,7 +191,7 @@ export const experiences = [
     role: "Infrastructure Engineering Intern",
     company: "The Cigna Group",
     date: "May 2024 - Aug 2024",
-    desc: "-Facilitated the migration of IBM DB2 databases to AWS RDS, improving database performance and scalability while reducing operational costs in an agile development environment. -Streamlined the secrets rotation in AWS Secrets Manager using Terraform, allowing for scheduled credential updates every 3 days and improving security audits by providing consistent compliance documentation. -Implemented and deployed golden modules and RDS instances on AWS using Terraform, standardizing infrastructure deployment and increasing efficiency across multiple projects.",
+    desc: "• Facilitated the migration of IBM DB2 databases to AWS RDS, improving database performance and scalability while reducing operational costs in an agile development environment\n• Streamlined the secrets rotation in AWS Secrets Manager using Terraform, allowing for scheduled credential updates every 3 days and improving security audits by providing consistent compliance documentation\n• Implemented and deployed golden modules and RDS instances on AWS using Terraform, standardizing infrastructure deployment and increasing efficiency across multiple projects",
     skills: [
       "React.js",
       "AWS Lambda",
@@ -213,7 +212,7 @@ export const experiences = [
     role: "Software Engineering Intern",
     company: "The Cigna Group",
     date: "May 2023 - Aug 2023",
-    desc: "-Conducted comprehensive testing for Cigna's pharmacy benefits management tool using Cucumber, Jenkins, and Java, ensuring seamless functionality and user experience.  -Developed and integrated new features into the Department of Labor-specific PBMS software using React.js, HTML, and CSS.  -Ensured accessibility and compliance standards by implementing React.js, CSS, and HTML enhancements, achieving 508 compliance for Cigna's pharmacy benefits management tool.  -Contributed to the successful deployment of new releases by performing manual Zephyr testing and streamlining GitHub branches for optimized software performance and reliability.",
+    desc: "• Conducted comprehensive testing for Cigna's pharmacy benefits management tool using Cucumber, Jenkins, and Java, ensuring seamless functionality and user experience\n• Developed and integrated new features into the Department of Labor-specific PBMS software using React.js, HTML, and CSS\n• Ensured accessibility and compliance standards by implementing React.js, CSS, and HTML enhancements, achieving 508 compliance for Cigna's pharmacy benefits management tool\n• Contributed to the successful deployment of new releases by performing manual Zephyr testing and streamlining GitHub branches for optimized software performance and reliability",
     skills: [
       "React.js",
       "Jenkins",
