@@ -5,7 +5,7 @@ import rmuImage from "../images/rmu-pic-cover.png";
 
 export const Bio = {
   name: "Parsa Hajiha",
-  roles: ["CS Student", "Programmer"],
+  roles: ["CS Student", "Software Engineer"],
   description:
     "Passionate and driven Computer Science student with a strong foundation in software engineering and a dedication to innovation. Currently pursuing a B.S. in Computer Science at Missouri University of Science & Technology, I have consistently demonstrated excellence in technical skills and a commitment to collaborative problem-solving. My journey in the world of technology has been marked by hands-on experiences, impactful projects, and a continuous quest for learning.",
   github: "https://github.com/parsa-hj",
@@ -168,7 +168,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Wells_Fargo_Logo_%282020%29.svg/1200px-Wells_Fargo_Logo_%282020%29.svg.png",
-    role: "Software Engineering Intern",
+    role: "Software Engineer Intern",
     company: "Wells Fargo",
     date: "June 2025 - Aug 2025",
     desc: "",
@@ -188,7 +188,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://newsroom.thecignagroup.com/image/1050x591-the-cigna-group-logo.png",
-    role: "Infrastructure Engineering Intern",
+    role: "Infrastructure Engineer Intern",
     company: "The Cigna Group",
     date: "May 2024 - Aug 2024",
     desc: "• Facilitated the migration of IBM DB2 databases to AWS RDS, improving database performance and scalability while reducing operational costs in an agile development environment\n• Streamlined the secrets rotation in AWS Secrets Manager using Terraform, allowing for scheduled credential updates every 3 days and improving security audits by providing consistent compliance documentation\n• Implemented and deployed golden modules and RDS instances on AWS using Terraform, standardizing infrastructure deployment and increasing efficiency across multiple projects",
@@ -209,7 +209,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://newsroom.thecignagroup.com/image/1050x591-the-cigna-group-logo.png",
-    role: "Software Engineering Intern",
+    role: "Software Engineer Intern",
     company: "The Cigna Group",
     date: "May 2023 - Aug 2023",
     desc: "• Conducted comprehensive testing for Cigna's pharmacy benefits management tool using Cucumber, Jenkins, and Java, ensuring seamless functionality and user experience\n• Developed and integrated new features into the Department of Labor-specific PBMS software using React.js, HTML, and CSS\n• Ensured accessibility and compliance standards by implementing React.js, CSS, and HTML enhancements, achieving 508 compliance for Cigna's pharmacy benefits management tool\n• Contributed to the successful deployment of new releases by performing manual Zephyr testing and streamlining GitHub branches for optimized software performance and reliability",
