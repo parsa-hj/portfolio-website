@@ -7,7 +7,9 @@ export const Bio = {
   name: "Parsa Hajiha",
   roles: ["CS Student", "Software Engineer"],
   description:
-    "Passionate and driven Computer Science student with a strong foundation in software engineering and a dedication to innovation. Currently pursuing a B.S. in Computer Science at Missouri University of Science & Technology, I have consistently demonstrated excellence in technical skills and a commitment to collaborative problem-solving. My journey in the world of technology has been marked by hands-on experiences, impactful projects, and a continuous quest for learning.",
+    "I’m a Computer Science student at the Missouri University of Science & Technology, passionate about software engineering, innovation, and building solutions that make a real-world impact. Through internships at Wells Fargo and Cigna, I have engineered full-stack applications, automated manual processes, and developed AI-driven tools to improve user experience.\n" +
+    "I thrive in collaborative environments where I can combine technical expertise with stakeholder insights to solve complex problems.\n" +
+    "I am driven by continuous learning and the challenge of creating scalable, high-quality software. My goal is to grow as a software engineer, building distributed systems, cloud solutions, and AI-powered applications that have a meaningful impact.",
   github: "https://github.com/parsa-hj",
   resume: "",
   linkedin: "https://www.linkedin.com/in/parsa-hajiha/",
@@ -171,7 +173,7 @@ export const experiences = [
     role: "Software Engineer Intern",
     company: "Wells Fargo",
     date: "June 2025 - Aug 2025",
-    desc: "",
+    desc: "• Engineered a full-stack internal release management and calculation application (React.js, TypeScript, Spring Boot, MongoDB), automating scheduling and tracking for 10+ product teams\n• Resolved data ingestion failures in a production vulnerability tracker application, developing Spring Boot services that boosted security response efficiency\n• Increased new code coverage to 95% by implementing comprehensive Jest (frontend) and JUnit (backend) test suites, integrating SonarQube for automated quality checks, and enhancing release stability\n• Partnered with internal customers and stakeholders to align product features with business needs, improving adoption and user satisfaction",
     skills: [
       "Spring Boot",
       "React.js",
@@ -183,6 +185,7 @@ export const experiences = [
       "GitHub",
       "Jest",
       "JUnit",
+      "SonarQube",
     ],
   },
   {
